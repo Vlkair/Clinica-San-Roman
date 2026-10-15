@@ -1,13 +1,18 @@
-# Clinica-San-Roman
-#TALLER
+### GRUPO 2 - Clinica-San-Roman
+
+###TALLER S10
+
 “Modelado de la arquitectura actual y objetivo en Archi”
 
 #CURSO:
+
 “PLANEAMIENTO ESTRATÉGICO DE TI”
 
 #DOCENTE:
+
 DR. OSCAR JUAN JIMENEZ FLORES
 
 #AUTOR(ES):
+
 CRUZ MAMANI, VICTOR WILLIAMS - 2022073903
 COAGUILA CACERES, MARIS JOSE - 2022073499
