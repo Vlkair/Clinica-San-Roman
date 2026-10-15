@@ -1,0 +1,11 @@
+capa,actual,objetivo,tipo_brecha,esfuerzo,dependencias,origen
+Datos,"Paciente en 5 sistemas con 1,100 duplicados",Maestro único de pacientes (MDM) con fuente autoritativa en HIS,Modificar,Alto,—,Principio dato único · Incidente G (34 exámenes erróneos)
+Datos,Datos de salud sin cifrar en reposo,Almacenamiento de historias clínicas cifrado (AES-256),Nuevo,Medio,—,Sección 4.1 obligación Ley 29733 / ANPD · Riesgo H.1
+Aplicación,Integración LIS-HIS por archivo plano manual,Bus de interoperabilidad clínica en tiempo real (HL7/FHIR),Nuevo,Alto,Maestro único de pacientes,Objetivo declarado de TI · Incidente G
+Aplicación,Programación de camas y salas en hoja de cálculo,Módulo de gestión de camas y quirófanos integrado al HIS,Nuevo,Medio,Maestro único de pacientes,Inventario de aplicaciones · Eliminación de Excel
+Aplicación,Conciliación con aseguradoras en hoja de cálculo,Módulo de liquidación y conciliación de aseguradoras en ERP/HIS,Nuevo,Medio,—,Inventario de aplicaciones · Eficiencia operacional
+Aplicación,Citas del portal web se digitan a mano en HIS,Integración API directa entre Portal de Citas y Agenda HIS,Modificar,Bajo,Maestro único de pacientes,Visión Sección 2.2 · Optimización de admisión
+Aplicación,Sistema de planillas sin soporte y no integrado,Módulo de gestión de personal y planillas integrado a contabilidad,Reemplazar,Medio,—,Inventario de aplicaciones · Obsoletización de software
+Tecnología,Sala de máquinas con aire acondicionado doméstico,Infraestructura resurgente / Cloud híbrida con respaldo inmutable,Modificar,Alto,—,Sección 4.3 DSS04 · Análisis BIA / Continuidad
+Tecnología,"Red LAN unificada (consultorios, administración y equipos)","Segmentación de red por VLANs (Biomédica, Gestión, Wi-Fi)",Modificar,Bajo,—,Sección 4.1 Seguridad de la información
+Negocio,Cuentas compartidas de médicos en consultorios,Autenticación nominativa individual con MFA,Modificar,Bajo,—,Riesgo H.3 · Principio de protección de datos de salud
